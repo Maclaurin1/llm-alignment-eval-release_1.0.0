@@ -1,0 +1,43 @@
+{
+  "IFEval": {
+    "Prompt-level-strict-accuracy": 74.4916820702403,
+    "Inst-level-strict-accuracy": 82.61390887290167,
+    "Prompt-level-loose-accuracy": 78.00369685767097,
+    "Inst-level-loose-accuracy": 84.89208633093526,
+    "score": 80.30880286528632
+  },
+  "RAIFB_api2_part1": {
+    "Prompt-level-if_strict-accuracy": 81.17977528089888,
+    "Inst-level-if_strict-accuracy": 89.00928792569658,
+    "Prompt-level-if_loose-accuracy": 82.58426966292134,
+    "Inst-level-if_loose-accuracy": 89.93808049535603,
+    "rag_strict": 50.172329493992486,
+    "rag_loose": 84.86765595421734,
+    "score": 83.72596280856934
+  },
+  "RAIFB_api2_part2": {
+    "Prompt-level-if_strict-accuracy": 74.57627118644068,
+    "Inst-level-if_strict-accuracy": 85.85131894484412,
+    "Prompt-level-if_loose-accuracy": 77.23970944309927,
+    "Inst-level-if_loose-accuracy": 87.76978417266187,
+    "rag_strict": 53.0324637194866,
+    "rag_loose": 78.81695186863449,
+    "score": 78.02833065586688
+  },
+  "RAIFB_api2_part3": {
+    "Prompt-level-if_strict-accuracy": 81.81818181818183,
+    "Inst-level-if_strict-accuracy": 90.56603773584906,
+    "Prompt-level-if_loose-accuracy": 84.4155844155844,
+    "Inst-level-if_loose-accuracy": 91.82389937106919,
+    "rag_strict": 51.841957255343075,
+    "rag_loose": 76.35732418504321,
+    "score": 80.3864543003138
+  },
+  "ZhIFEval": {
+    "Prompt-level-if_strict-accuracy": 75.1231527093596,
+    "Inst-level-if_strict-accuracy": 83.23170731707317,
+    "Prompt-level-if_loose-accuracy": 79.06403940886699,
+    "Inst-level-if_loose-accuracy": 86.1280487804878,
+    "score": 81.14787336297007
+  }
+}

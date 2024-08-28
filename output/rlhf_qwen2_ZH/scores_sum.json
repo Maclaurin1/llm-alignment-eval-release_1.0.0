@@ -1,0 +1,9 @@
+{
+  "ZhIFEval": {
+    "Prompt-level-if_strict-accuracy": 76.84729064039408,
+    "Inst-level-if_strict-accuracy": 85.0609756097561,
+    "Prompt-level-if_loose-accuracy": 81.2807881773399,
+    "Inst-level-if_loose-accuracy": 87.95731707317073,
+    "score": 83.170881893548
+  }
+}

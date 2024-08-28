@@ -1,0 +1,9 @@
+{
+  "IFEval": {
+    "Prompt-level-strict-accuracy": 76.15526802218115,
+    "Inst-level-strict-accuracy": 83.93285371702638,
+    "Prompt-level-loose-accuracy": 78.9279112754159,
+    "Inst-level-loose-accuracy": 85.97122302158273,
+    "score": 81.43038249622114
+  }
+}

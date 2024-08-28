@@ -27,13 +27,13 @@ def split_response_tokens(p_tokens):
 
 
 
-src_path = r"D:\eval\llm-alignment-eval-release_1.0.0\llm-alignment-eval-release_1.0.0\eval_data\alignment_eval_with_summary_240704_11661_str_consis_hyper_parameters.json"
-target_path = r"D:\eval\llm-alignment-eval-release_1.0.0\llm-alignment-eval-release_1.0.0\output\zhaowen_32k_0823"
+src_path = r"E:\eastmoney\llm-alignment-eval-release_1.0.0\eval_data\alignment_eval_with_summary_240704_11661_str_consis_hyper_parameters.json"
+target_path = r"E:\eastmoney\llm-alignment-eval-release_1.0.0\output\wzc_192_MT_2"
 
 dc_results_path = target_path
 
 
-token_path = r"D:\eval\llm-alignment-eval-release_1.0.0\llm-alignment-eval-release_1.0.0\tokenizer\qwen_shuffle_tokenizer"
+token_path = r"E:\eastmoney\llm-alignment-eval-release_1.0.0\tokenizer\qwen_shuffle_tokenizer"
 
 org_data_map = dict()
 

@@ -36,14 +36,14 @@ def build_model(p_model_type, p_model_url, p_token, p_tokenizer_path):
     return ret_model
 
 
-DF_OUT_DIR = r"D:\eval\llm-alignment-eval-release_1.0.0\llm-alignment-eval-release_1.0.0\output"
-DF_DATA_PATH = r"D:\training_data\eval_long_text\merged.json"
+DF_OUT_DIR = r"E:\eastmoney\llm-alignment-eval-release_1.0.0\output"
+DF_DATA_PATH = r"E:\eastmoney\llm-alignment-eval-release_1.0.0\eval_data\ZHIFEval.json"
 DF_TOKENIZER = r"D:\eval\llm-alignment-eval-release_1.0.0\llm-alignment-eval-release_1.0.0\tokenizer\qwen_shuffle_tokenizer"
-DF_MODEL_NAME = "qwen72b_trtllm_chat_dev_rft"
+DF_MODEL_NAME = "rlhf_qwen2_ZH"
 DF_MODEL_TYPE = "qwen"
 
-DF_URL = "http://1411998742277274.cn-wulanchabu.pai-eas.aliyuncs.com/api/predict/qwen72b_trtllm_chat_dev_rft/v1/chat/completions"
-DF_TOKEN = "MGQyNWMzNTAxMjJmMzdhYTdmMmNlYzE2Njc3NTc5YjlhOTllOWI0MQ=="
+DF_URL = "http://1411998742277274.cn-wulanchabu.pai-eas.aliyuncs.com/api/predict/rlhf_qwen_2_72b_clone/v1/chat/completions"
+DF_TOKEN = "OGViNTcxOTNiZDUwNzYxM2RjMzJiZDA1ZThlMTU1ZTc0YmEzODNlNg=="
 
 # DF_URL = "http://1411998742277274.cn-wulanchabu.pai-eas.aliyuncs.com/api/predict/qwen_bladellm_test/v1/chat/completions"
 # DF_TOKEN = "=="

@@ -6,11 +6,12 @@ import json
 import os.path
 import nltk
 nltk.download('punkt')
-
+import langdetect
 import pandas as pd
 from alignment_eval.em_eval import *
 from alignment_eval.utils.cdme_pic_utils import visualize
-
+import nltk
+nltk.download('punkt')
 score_map = {}
 
 
@@ -146,9 +147,9 @@ def do_score(p_data_path, p_out_dir, p_model_name):
     json.dump(score_map, fw, ensure_ascii=False, indent=2)
     fw.close()
 
-DF_MODEL_NAME = "zhaowen_32k_0823"
-DF_RES_PATH = f"D:/eval/llm-alignment-eval-release_1.0.0/llm-alignment-eval-release_1.0.0/output/{DF_MODEL_NAME}/{DF_MODEL_NAME}_results.jsonl"
-DF_OUT_DIR = f"D:/eval/llm-alignment-eval-release_1.0.0/llm-alignment-eval-release_1.0.0/output/{DF_MODEL_NAME}"
+DF_MODEL_NAME = "rlhf_qwen2_ZH"
+DF_RES_PATH = f"E:/eastmoney/llm-alignment-eval-release_1.0.0/output/{DF_MODEL_NAME}/{DF_MODEL_NAME}_results.jsonl"
+DF_OUT_DIR = f"E:/eastmoney/llm-alignment-eval-release_1.0.0/output/{DF_MODEL_NAME}"
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
