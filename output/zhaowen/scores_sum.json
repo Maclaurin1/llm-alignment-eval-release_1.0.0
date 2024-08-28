@@ -1,0 +1,43 @@
+{
+  "IFEval": {
+    "Prompt-level-strict-accuracy": 71.34935304990758,
+    "Inst-level-strict-accuracy": 80.3357314148681,
+    "Prompt-level-loose-accuracy": 73.56746765249538,
+    "Inst-level-loose-accuracy": 81.77458033573141,
+    "score": 76.95159953368174
+  },
+  "RAIFB_api2_part1": {
+    "Prompt-level-if_strict-accuracy": 83.75350140056022,
+    "Inst-level-if_strict-accuracy": 90.29275808936826,
+    "Prompt-level-if_loose-accuracy": 86.83473389355743,
+    "Inst-level-if_loose-accuracy": 92.14175654853621,
+    "rag_strict": 49.4239185322336,
+    "rag_loose": 83.91972695743746,
+    "score": 85.37723042549744
+  },
+  "RAIFB_api2_part2": {
+    "Prompt-level-if_strict-accuracy": 75.1207729468599,
+    "Inst-level-if_strict-accuracy": 85.30465949820788,
+    "Prompt-level-if_loose-accuracy": 78.98550724637681,
+    "Inst-level-if_loose-accuracy": 87.81362007168458,
+    "rag_strict": 51.83575860102576,
+    "rag_loose": 78.0679888630615,
+    "score": 78.52674805471915
+  },
+  "RAIFB_api2_part3": {
+    "Prompt-level-if_strict-accuracy": 73.07692307692307,
+    "Inst-level-if_strict-accuracy": 85.80246913580247,
+    "Prompt-level-if_loose-accuracy": 78.2051282051282,
+    "Inst-level-if_loose-accuracy": 88.27160493827161,
+    "rag_strict": 52.96494188226472,
+    "rag_loose": 77.11852876501311,
+    "score": 77.66182848507066
+  },
+  "ZhIFEval": {
+    "Prompt-level-if_strict-accuracy": 76.84729064039408,
+    "Inst-level-if_strict-accuracy": 84.7560975609756,
+    "Prompt-level-if_loose-accuracy": 79.80295566502463,
+    "Inst-level-if_loose-accuracy": 86.89024390243902,
+    "score": 82.27952661300012
+  }
+}

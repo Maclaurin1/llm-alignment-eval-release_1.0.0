@@ -1,0 +1,11 @@
+{
+  "MT_Eval_C": {
+    "MT_Eval_Length600Depthcls-ablation-dgc": 99.0,
+    "MT_Eval_Length600Depthcls-ablation-gold": 98.0,
+    "MT_Eval_Length600Depthcls-ablation-rc": 89.0,
+    "MT_Eval_Length600Depthcls-ablation-sgc": 98.16666666666666,
+    "MT_Eval_Length600Depthrecollection-multi-cls": 98.0,
+    "MT_Eval_Length600Depthrecollection-single-cls": 92.97619047619047,
+    "score": 95.85714285714285
+  }
+}
